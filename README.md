@@ -22,5 +22,3 @@ I used a simple idea:
    This gave me one letter of the key.
 
 5. After finding all letters of the key, I decrypted the full text.
-
---
