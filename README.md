@@ -1,7 +1,7 @@
 # Vigenere Cipher Breaker
 
 This project is my homework task.  
-The goal was to **break a Vigenere cipher** when the key length is known.
+The goal was to break a Vigenere cipher when the key length is known.
 
 ---
 
@@ -15,7 +15,7 @@ I used a simple idea:
 
 2. That means the encrypted text can be split into groups, and each group looks like a **Caesar cipher**.
 
-3. To guess the shift for each group, I looked at **letter frequencies** in Czech language.  
+3. To guess the shift for each group, I looked at letter frequencies in Czech language.  
    (For example, the letter `E` is very common.)
 
 4. I calculated which shift makes the frequencies look most similar to Czech.  
@@ -23,8 +23,4 @@ I used a simple idea:
 
 5. After finding all letters of the key, I decrypted the full text.
 
----
-
-## Example
-
-Input (encrypted text):  
+--
